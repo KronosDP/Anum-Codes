@@ -1,5 +1,6 @@
 function x = Atas(U,b)
   %Complexity: n^2/2
+  %Ceritanya matriks nya sudah non singular (karena gauss jordan)
   n = length(b);
   x = zeros(n,1);
   for i=n:-1:1
